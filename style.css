@@ -9,11 +9,10 @@
 
 .main_box{
   position: relative;
-  background: url('backgorund.png') right no-repeat;
+  background: url('backg.jpg') right no-repeat;
   background-size: cover;
   height: 100vh;
   width: 100%;
-  background-color: black;
 }
 
 .main_box .sidebar_menu{
@@ -112,12 +111,13 @@ transition: all 0.3s linear;
 }
 
 .sidebar_menu .btn_two i{
-font-size: 25px;
+font-size: 10px;
 line-height: 60px;
 position: absolute;
 left: 240px;
 cursor: pointer;
 opacity: 0;
+color: gray;
 transition: all 0.3s linear;
 }
 
